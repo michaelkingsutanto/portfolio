@@ -3907,3 +3907,18 @@ input, select, textarea {
 			}
 
 		}
+/* Responsive iframe container to maintain aspect ratio */
+.responsive-iframe {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* Aspect ratio for 16:9 videos */
+    width: 100%;
+}
+
+/* Iframe styling to fill the container */
+.responsive-iframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
