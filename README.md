@@ -1,6 +1,7 @@
 # Michael's Portfolio
 
-This repository is solely for deploying the portfolio GitHub page.
+This repository is solely for deploying the portfolio GitHub page.  
+https://michaelkingsutanto.github.io/portfolio/
 
 ## About Me
 
