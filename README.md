@@ -24,8 +24,11 @@ Leverage NLP (Natural Language Processing) to inform our marketing decisions wit
 ### Regression: HDB Price Predictor
 Predict HDB prices using a linear regression model. This project is limited to using only the linear regression model. [Learn more](https://github.com/michaelkingsutanto/GA_project2_hdb_price_predictor)
 
+### Classification: LendingClub Loan
+Develop a predictive classification model to accurately identify borrowers who are most likely to default on their loans.. [Learn more](https://github.com/michaelkingsutanto/heicoders_ai200_loandefault_prediction)
+
 ### Tableau: Data Visualization
-Predict HDB prices using a linear regression model. This project is limited to using only the linear regression model. [Learn more](https://public.tableau.com/app/profile/michael.tan3266/vizzes)
+[Learn more](https://public.tableau.com/app/profile/michael.tan3266/vizzes)
 
 ## Contact
 - Email: michaelkingsutanto@gmail.com
