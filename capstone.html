@@ -20,7 +20,7 @@
 				<nav>
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html" class="active">Capstone</a></li>
+						<li><a href="capstone.html" class="active">Capstone</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -32,10 +32,37 @@
 					<section id="main" class="wrapper">
 						<div class="inner">
 							<h1 class="major">Singapore Traffic Object Detection</h1>
+							<p style="margin-bottom: 8px;">The video below shows the inference result from the trained model.</p>
 							<div class="responsive-iframe">
 								<iframe width="1280" height="720" src="https://www.youtube.com/embed/_tbwXCWez5k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							</div>
 							<p>This project serves as my capstone for the General Assembly Data Science Immersive program, which spanned from February to May 2024. The objective of this project was to create a model capable of detecting Singapore's local vehicles, traffic lights, traffic signs, and other traffic-related objects using YOLOv8. For more details, please visit my GitHub page.</p>
+							<ul class="actions">
+								<li><a href="https://github.com/michaelkingsutanto/GA_capstone_singapore_traffic_object_detection" class="button" target="_blank">View on GitHub</a></li>
+							</ul>
+							<p style="font-size: 25px; margin-bottom: 30px">Methodology</p>
+							<p style="font-size: 20px; margin-bottom: 0;">1. Data collection</p>
+							<div class="container" style="margin-bottom: 30px;">
+								<img src="images/dataCollection.JPG" alt="Responsive Image" style="width: 100%; max-width: 800px; height: auto;">
+							</div>
+							<p style="font-size: 20px; margin-bottom: 0;">2. Data Cleaning</p>
+							<p style="font-size: 16px; margin-bottom: 8px;">Some objects are mislabeled</p>
+							<div class="container" style="margin-bottom: 30px;"">
+								<img src="images/dataCleaning1.JPG" alt="Responsive Image" style="width: 100%; max-width: 800px; height: auto;">
+								<p style="font-size: 16px; margin-bottom: 8px;">Top 6 Class Heatmaps After Cleaning</p>
+								<img src="images/finalHeatmap.JPG" alt="Responsive Image" style="width: 100%; max-width: 800px; height: auto;">
+							</div>
+							<p style="font-size: 20px; margin-bottom: 0;">3. Dataset</p>
+							<p style="font-size: 16px; margin-bottom: 8px;">Dataset has 2,540 images, 22,891 labels and consists of 24 Class.</p>
+							<div class="container" style="margin-bottom: 30px;">
+								<img src="images/V2_classBalance.png" alt="Responsive Image" style="width: 100%; max-width: 800px; height: auto;">
+								<img src="images/24Classes.JPG" alt="Responsive Image" style="width: 100%; max-width: 800px; height: auto;">
+							</div>
+							<p style="font-size: 20px; margin-bottom: 0;">4. Modelling</p>
+							<p style="font-size: 16px; margin-bottom: 0;">Utilized YOLOv8 to train custom dataset. Below is the models comparison.</p>
+							<div class="container" style="margin-bottom: 50px;">
+								<img src="images/modelMetrics.JPG" alt="Responsive Image" style="width: 100%; max-width: 800px; height: auto;">
+							</div>
 							<ul class="actions">
 								<li><a href="https://github.com/michaelkingsutanto/GA_capstone_singapore_traffic_object_detection" class="button" target="_blank">View on GitHub</a></li>
 							</ul>
